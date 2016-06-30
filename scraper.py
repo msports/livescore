@@ -1,5 +1,6 @@
 
-import requests, bs4
+import requests 
+import BeautifulSoup
 
 res = requests.get('http://www.livescore.com/')
 
